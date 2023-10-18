@@ -1,0 +1,51 @@
+<div class="main_grid">
+  <div id="subscribe_bar">
+    <label for="symbols">Symbol: </label>
+    <select name="symbols" id="symbols_dropbox">
+      <option value="1">EURUSD</option>
+      <option value="2">AUDUSD</option>
+      <option value="3">GBPUSD</option>
+      <option value="4">XAUUSD</option>
+      <option value="5">MGC</option>
+    </select> 
+    <button onclick="subscribe()">Subscribe</button>
+    <button onclick="unsubscribe()">Unsubscribe</button>
+  </div>
+  <div id="price_bar">
+    <label>price :</label>
+    <p id="price">{{close}}</p>
+  </div>
+  <div id="main_area">
+    <button class='elbutton'>Buy</button>
+    <!-- <div id='price'>{{close}}</div> -->
+    <div id='orderbook'>
+      <table>
+        <tr>
+          <th>Bid</th>
+          <th>Ask</th>
+        </tr>
+        <tr>
+          <td>{{Bid1}}</td>
+          <td>{{Ask1}}</td>
+        </tr>
+        <tr>
+          <td>{{Bid2}}</td>
+          <td>{{Ask2}}</td>
+        </tr>
+        <tr>
+          <td>{{Bid3}}</td>
+          <td>{{Ask3}}</td>
+        </tr>
+        <tr>
+          <td>{{Bid4}}</td>
+          <td>{{Ask4}}</td>
+        </tr>
+        <tr>
+          <td>{{Bid5}}</td>
+          <td>{{Ask5}}</td>
+        </tr>
+      </table>
+    </div>
+    <button class='elbutton'>Sell</button>
+  </div>
+</div>

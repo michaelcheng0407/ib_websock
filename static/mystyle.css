@@ -1,0 +1,64 @@
+#setting_main_grid {
+    display: flex;
+    flex-direction: column;
+}
+
+.setting_row {
+    display: flex;
+    flex-direction: row;
+}
+
+.setting_row label{
+    border: 1px transparent;
+    margin: 2px;
+}
+
+#subscribe_bar {
+    display: flex;
+    grid-row: 1;
+}
+
+#price_bar {
+    display: flex;
+    grid-row: 2;
+}
+
+#main_area {
+    /* justify-content: flex-start; */
+    display: flex;
+    flex-direction: row;
+    grid-row: 3;
+}
+
+.flex-container > div {
+  background-color: #98d8e0;
+  margin: 5px;
+  padding: 10px;
+}
+
+/* .flex-container > button {
+    border: none;
+    padding: 64px;
+    align-self: center;
+} */
+
+#orderbook > table {
+    width: 150px;
+}
+
+#orderbook th{
+    text-align: center;
+    font-size: 20px;
+}
+
+#orderbook td{
+    text-align: center;
+    font-size: 14px;
+}
+
+.elbutton{
+    font-size: 30px;
+    background-color: #98d8e0;
+    margin: 5px;
+    padding: 10px;
+}
