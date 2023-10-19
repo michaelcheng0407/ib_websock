@@ -1,6 +1,6 @@
 
 ## Warning 
-Do not use any of the code in this repo for trading. It is not completed with lots of bugs
+Do not use this repo for trading. It is not completed. It is just a proof of concept app.
 
 # Proof of concept App for giving IB TWS a frontend with ib_inysnc aand websocket
 This project implements a web app for interactive stock charting and trading via FastAPI, SocketIO, ib_insync.
@@ -9,7 +9,7 @@ This project implements a web app for interactive stock charting and trading via
 The app consists of:
 - A FastAPI backend with websockets using SocketIO.
 - An Interactive Brokers wrapper using ib_insync for market data and trade execution.
-- A frontend built with HTML, CSS, JavaScript and minimal vue.js .
+- A frontend built with HTML, CSS, JavaScript , Anychart.js, vue.js .
 
 ## Key features:
 - Real-time charting of market data streamed from IB.
